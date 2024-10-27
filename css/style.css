@@ -231,6 +231,21 @@ font-size: 3rem;
   }    
 }
 
+.producto__imagen:hover{
+  transform: scale(1.1);
+  transition: transform .25s ease-in-out;
+}
+
+.camisa__imagen:hover {
+  transform: scale(1.5);
+  transition: transform .25s ease-in-out;
+    transition-property: transform;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-behavior: normal;
+}
+
 .formulario {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
